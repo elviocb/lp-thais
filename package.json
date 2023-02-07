@@ -1,0 +1,48 @@
+{
+  "name": "addax",
+  "version": "1.8.0",
+  "private": true,
+  "dependencies": {
+    "http-proxy-middleware": "^0.19.2",
+    "isomorphic-fetch": "^2.2.1",
+    "mixitup": "^3.3.1",
+    "react": "^17.0.2",
+    "react-accessible-accordion": "^3.3.5",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-countup": "^4.4.0",
+    "react-dom": "^17.0.2",
+    "react-image-lightbox": "^5.1.4",
+    "react-modal-video": "^1.2.8",
+    "react-owl-carousel3": "^2.2.5",
+    "react-particles-js": "^2.7.1",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "2.1.8",
+    "react-typing-effect": "^2.0.5",
+    "react-visibility-sensor": "^5.1.1",
+    "react-water-wave": "^1.0.5",
+    "react-wow": "^1.0.0",
+    "sass": "^1.43.3",
+    "sass-loader": "^12.2.0"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "react-snap": "^1.23.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "styles": "node-sass --watch src/assets/css -o src/assets/css",
+    "postbuild": "react-snap"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
