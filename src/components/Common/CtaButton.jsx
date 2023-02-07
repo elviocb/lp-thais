@@ -1,12 +1,14 @@
 import React from "react";
+import { WHATSAPP_NUMBER } from "../../utils/constants";
+import { createWhatsAppLink } from "../../utils/create-whatsapp-link";
 
 class CtaButton extends React.Component {
   render() {
-    const url = `https://wa.me/5511951618193?text=Ol%C3%A1!%20Sou%20indicador%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.`;
+    const message = `Olá Dra. Thais! \nSou indicador e gostaria de mais informações.`;
 
     return (
       <a
-        href={url}
+        href={createWhatsAppLink(WHATSAPP_NUMBER, message)}
         className="btn btn-primary cta-btn"
         target="_blank"
         rel="noopener noreferrer"

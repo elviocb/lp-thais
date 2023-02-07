@@ -150,7 +150,7 @@ class Navigation extends React.Component {
     return (
       <nav
         id="navbar"
-        className="navbar navbar-expand-md navbar-light bg-light header-sticky"
+        className="navbar navbar-expand-lg navbar-light bg-light header-sticky"
       >
         <div className="container">
           <a className="navbar-brand" href="/">

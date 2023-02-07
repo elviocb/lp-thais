@@ -44,10 +44,40 @@ This files table contents are outlined below>>>>>
 */
 /*
 ==============================
-CTA Section CSS
+Navbar CSS
 ==============================
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+.navbar {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.navbar.navbar-light .navbar-brand {
+  color: #fff;
+  padding-top: 0; }
+
+.navbar.navbar-light .navbar-brand:focus, .navbar.navbar-light .navbar-brand:hover {
+  color: #000000; }
+
+.navbar.navbar-light .navbar-toggler {
+  border-color: #5bb0ba; }
+
+.navbar.navbar-light .navbar-toggler:focus {
+  box-shadow: none; }
+
+.navbar.navbar-light .navbar-toggler .navbar-toggler-icon {
+  fill: #5bb0ba;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(91, 176, 186, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+
+.navbar.navbar-light .navbar-nav .nav-link {
+  color: #000000; }
+
+/*
+==============================
+CTA Section CSS
+==============================
+*/
 .cta-section {
   width: 100%;
   margin-top: 60px; }

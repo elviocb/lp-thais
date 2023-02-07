@@ -2,7 +2,6 @@ import React from "react";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import { Link } from "react-router-dom";
-import mixitup from "mixitup";
 import CtaSection from "./CtaSection";
 
 const images = [
@@ -22,22 +21,6 @@ class Work extends React.Component {
     isOpen: false,
   };
 
-  componentDidMount() {
-    mixitup("#mix-wrapper", {
-      animation: {
-        effects: "fade rotateZ(0deg)",
-        duration: 700,
-      },
-      classNames: {
-        block: "programs",
-        elementFilter: "filter-btn",
-      },
-      selectors: {
-        target: ".mix-target",
-      },
-    });
-  }
-
   render() {
     const { photoIndex, isOpen } = this.state;
     return (
@@ -51,36 +34,11 @@ class Work extends React.Component {
               Logo abaixo você encontra alguns dos meus trabalhos realizados:
             </p>
           </div>
-
-          {/* <div className="row">
-            <div className="col-lg-12 col-md-12">
-              <div className="shorting-menu">
-                <button className="filter" data-filter="all">
-                  Radiografias
-                </button>
-                <button className="filter" data-filter=".brand">
-                  Brand
-                </button>
-                <button className="filter" data-filter=".design">
-                  Design
-                </button>
-                <button className="filter" data-filter=".graphic">
-                  Graphic
-                </button>
-                <button className="filter" data-filter=".photoshop">
-                  Photoshop
-                </button>
-                <button className="filter" data-filter=".illustrator">
-                  Illustrator
-                </button>
-              </div>
-            </div>
-          </div> */}
         </div>
 
         <div className="shorting">
-          <div className="row m-0" id="mix-wrapper">
-            <div className="col-lg-3 col-6 mix brand p-0 mix-target">
+          <div className="row m-0">
+            <div className="col-lg-3 col-6 brand p-0">
               <div className="single-work">
                 <img src={images[0]} alt="work-img" />
 
@@ -98,7 +56,7 @@ class Work extends React.Component {
               </div>
             </div>
 
-            <div className="col-lg-3 col-6 mix design p-0 mix-target">
+            <div className="col-lg-3 col-6 design p-0">
               <div className="single-work">
                 <img src={images[1]} alt="work-img" />
 
@@ -116,7 +74,7 @@ class Work extends React.Component {
               </div>
             </div>
 
-            <div className="col-lg-3 col-6 mix graphic p-0 mix-target">
+            <div className="col-lg-3 col-6 graphic p-0">
               <div className="single-work">
                 <img src={images[2]} alt="work-img" />
 
@@ -134,7 +92,7 @@ class Work extends React.Component {
               </div>
             </div>
 
-            <div className="col-lg-3 col-6 mix photoshop p-0 mix-target">
+            <div className="col-lg-3 col-6 photoshop p-0">
               <div className="single-work">
                 <img src={images[3]} alt="work-img" />
 
@@ -152,7 +110,7 @@ class Work extends React.Component {
               </div>
             </div>
 
-            <div className="col-lg-3 col-6 mix design p-0 mix-target">
+            <div className="col-lg-3 col-6 design p-0">
               <div className="single-work">
                 <img src={images[4]} alt="work-img" />
 
@@ -170,7 +128,7 @@ class Work extends React.Component {
               </div>
             </div>
 
-            <div className="col-lg-3 col-6 mix illustrator p-0 mix-target">
+            <div className="col-lg-3 col-6 illustrator p-0">
               <div className="single-work">
                 <img src={images[5]} alt="work-img" />
 
@@ -187,7 +145,7 @@ class Work extends React.Component {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-3 col-6 mix illustrator p-0 mix-target">
+            <div className="col-lg-3 col-6 illustrator p-0">
               <div className="single-work">
                 <img src={images[6]} alt="work-img" />
 
@@ -204,7 +162,7 @@ class Work extends React.Component {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-3 col-6 mix illustrator p-0 mix-target">
+            <div className="col-lg-3 col-6 illustrator p-0">
               <div className="single-work">
                 <img src={images[7]} alt="work-img" />
 

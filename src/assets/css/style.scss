@@ -45,6 +45,49 @@ This files table contents are outlined below>>>>>
 
 /*
 ==============================
+Navbar CSS
+==============================
+*/
+
+$template_color: #5bb0ba;
+
+.navbar {
+  position: relative;
+  padding: {
+    top: 5px;
+    bottom: 5px;
+  }
+  &.navbar-light {
+    .navbar-brand {
+      color: #fff;
+      padding-top: 0;
+      &:focus,
+      &:hover {
+        color: #000000;
+      }
+    }
+    .navbar-toggler {
+      border-color: $template_color;
+
+      &:focus {
+        box-shadow: none;
+      }
+
+      .navbar-toggler-icon {
+        fill: $template_color;
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(91, 176, 186, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      }
+    }
+    .navbar-nav {
+      .nav-link {
+        color: #000000;
+      }
+    }
+  }
+}
+
+/*
+==============================
 CTA Section CSS
 ==============================
 */

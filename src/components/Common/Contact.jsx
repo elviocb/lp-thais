@@ -1,5 +1,7 @@
 import React from "react";
 import "isomorphic-fetch";
+import { createWhatsAppLink } from "../../utils/create-whatsapp-link";
+import { WHATSAPP_NUMBER } from "../../utils/constants";
 
 class Contact extends React.Component {
   state = {
@@ -16,11 +18,15 @@ class Contact extends React.Component {
 
   onSubmit = (e) => {
     e.preventDefault();
-    const data = this.state.formFields;
+    const { name, email, text } = this.state.formFields;
 
-    const url = `https://wa.me/5511951618193?text=Indicador:%20${data.name}%20%0Email:%20${data.email}%20%0Mensagem:%20${data.text}%20%0`;
+    const message = `Olá Dra. Thais! \nEstou entrando em contato por meio do site. Meu nome é ${name} e meu email para contato é ${email}.\n\n${text}`;
 
-    window.open(url, "_blank", "noreferrer");
+    window.open(
+      createWhatsAppLink(WHATSAPP_NUMBER, message),
+      "_blank",
+      "noreferrer"
+    );
   };
 
   nameChangeHandler = (e) => {

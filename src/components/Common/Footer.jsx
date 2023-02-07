@@ -17,23 +17,34 @@ class Footer extends React.Component {
               <ul>
                 <li>
                   <Link
-                    to="https://m.facebook.com/profile.php?id=100089737572717"
+                    to={{
+                      pathname:
+                        "https://m.facebook.com/profile.php?id=100089737572717",
+                    }}
                     className="fa fa-facebook"
                     target="_blank"
+                    exact
                   ></Link>
                 </li>
                 <li>
                   <Link
-                    to="https://www.instagram.com/drathaiscoqueiro"
+                    to={{
+                      pathname: "https://www.instagram.com/drathaiscoqueiro",
+                    }}
                     className="fa fa-instagram"
                     target="_blank"
+                    exact
                   ></Link>
                 </li>
                 <li>
                   <Link
-                    to="https://www.linkedin.com/in/thais-coqueiro-814268254"
+                    to={{
+                      pathname:
+                        "https://www.linkedin.com/in/thais-coqueiro-814268254",
+                    }}
                     className="fa fa-linkedin"
                     target="_blank"
+                    exact
                   ></Link>
                 </li>
               </ul>
