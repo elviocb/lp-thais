@@ -1,6 +1,6 @@
 import React from "react";
 
-import featImage from "../../assets/images/foto-hero-v2.png";
+import featImage from "../../assets/images/foto-hero-v3.png";
 import CtaButton from "../Common/CtaButton";
 
 class MainBanner extends React.Component {
