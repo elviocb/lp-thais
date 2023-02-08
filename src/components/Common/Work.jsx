@@ -31,7 +31,8 @@ class Work extends React.Component {
               Alguns <span>Trabalhos</span>
             </h2>
             <p>
-              Logo abaixo você encontra alguns dos meus trabalhos realizados:
+              Conheça um pouco do meu trabalho, realizado em clínicas de
+              indicadores
             </p>
           </div>
         </div>

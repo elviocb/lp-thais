@@ -11,8 +11,8 @@ class Benefits extends React.Component {
               Vantagens do <span>Endo Delivery</span>
             </h2>
             <p>
-              Você quer saber por que contratar um dentista especialista
-              delivery para os atendimentos?
+              Saiba porque contratar um dentista especialista delivery para seus
+              atendimentos
             </p>
           </div>
 
@@ -20,11 +20,11 @@ class Benefits extends React.Component {
             <div className="col-lg-4 col-md-6">
               <div className="single-who-we-are">
                 <i className="fa fa-graduation-cap"></i>
-                <h4>Competência</h4>
+                <h4>Excelência</h4>
                 <p>
-                  Um especialista estuda e se atualiza constantemente com tudo
-                  que há de moderno na área que atua, deixando o indicador
-                  tranquilo para realizar o procedimento seguinte.
+                  Por se dedicar exclusivamente à área, o especialista estuda e
+                  se atualiza constantemente, deixando o indicador com a certeza
+                  de que oferecerá o que há de mais moderno na endodontia
                 </p>
                 <span>1</span>
               </div>
@@ -33,11 +33,11 @@ class Benefits extends React.Component {
             <div className="col-lg-4 col-md-6">
               <div className="single-who-we-are">
                 <i className="fa fa-bolt"></i>
-                <h4>Rapidez</h4>
+                <h4>Efetividade</h4>
                 <p>
-                  Um tratamento feito por especialista tem uma previsibilidade e
-                  conduta melhor, tendo em sua maioria dos casos finalização em
-                  sessão única
+                  O tratamento feito por especialista, na maior parte dos casos,
+                  encerra-se em uma única sessão, garantindo ao indicador
+                  trabalho de excelência e previsibilidade
                 </p>
                 <span>2</span>
               </div>
@@ -46,11 +46,12 @@ class Benefits extends React.Component {
             <div className="col-lg-4 col-md-6">
               <div className="single-who-we-are">
                 <i className="fa fa-thumbs-up"></i>
-                <h4>Sem preocupação</h4>
+                <h4>Despreocupação</h4>
                 <p>
-                  O profissional delivery fica responsável por separar e ter
-                  todo o equipamento, instrumental e material necessário para o
-                  atendimento
+                  Por estar sempre atualizado em relação a equipamentos e
+                  técnicas, cabe ao profissional delivery levar à clínica
+                  parceira, no dia do antendimento, equipamentos, instrumental e
+                  materiais necessários
                 </p>
                 <span>3</span>
               </div>
@@ -59,12 +60,11 @@ class Benefits extends React.Component {
             <div className="col-lg-4 col-md-6">
               <div className="single-who-we-are">
                 <i className="fa fa-scissors"></i>
-                <h4>Menor custo</h4>
+                <h4>Economia</h4>
                 <p>
-                  A principal vantagem ao indicador de ter um profissional
-                  delivery é a ocupação da sala de atendimento somente no
-                  período agendado e também não precisar deslocar o paciente à
-                  outra clínica
+                  Há duas grandes vantagens de se contratar um profissional
+                  delivery: ocupar a sala de atendimento somente no período
+                  agendado e não precisar encaminhar o paciente a outra clínica
                 </p>
                 <span>4</span>
               </div>
@@ -73,10 +73,10 @@ class Benefits extends React.Component {
             <div className="col-lg-4 col-md-6">
               <div className="single-who-we-are">
                 <i className="fa fa-refresh"></i>
-                <h4>Retorno se Necessário</h4>
+                <h4>Retorno</h4>
                 <p>
-                  O endo delivery fica disponível para retornar se necessário em
-                  todos os casos
+                  O endodotista delivery fica disponível para retornar à clínica
+                  do indicador, sempre que necessário, em todos os casos
                 </p>
                 <span>5</span>
               </div>
@@ -87,9 +87,9 @@ class Benefits extends React.Component {
                 <i className="fa fa-heartbeat"></i>
                 <h4>Pós-operatório</h4>
                 <p>
-                  O especialista fica responsável pelas orientações
-                  pós-operatórias e disponível para qualquer dúvida do paciente
-                  e/ou indicador
+                  Cabe ao especialista delivery a responsabilidade de dar as
+                  orientações sobre o pós-operatório, bem como atender qualquer
+                  dúvida do paciente e/ou do indicador
                 </p>
                 <span>6</span>
               </div>

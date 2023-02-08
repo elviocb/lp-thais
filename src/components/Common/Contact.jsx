@@ -87,9 +87,9 @@ class Contact extends React.Component {
             </h2>
 
             <p>
-              Envie uma mensagem para mim com suas dúvidas que irei responder o
-              quanto antes. As mensagens serão enviadas pelo Whatsapp
-              automaticamente.
+              Vamos trabalhar juntos! Envie uma mensagem com suas dúvidas e
+              responderei o quanto antes (as mensagens são enviadas pelo
+              Whatsapp automaticamente)
             </p>
           </div>
 

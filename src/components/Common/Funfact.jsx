@@ -36,7 +36,7 @@ class Funfact extends React.Component {
                     />
                   </VisibilitySensor>
                 </h2>
-                <p>Canais Tratados</p>
+                <p>Canais tratados</p>
               </div>
             </div>
 
@@ -58,7 +58,7 @@ class Funfact extends React.Component {
                     />
                   </VisibilitySensor>
                 </h2>
-                <p>Anos de Atuação</p>
+                <p>Anos de atuação</p>
               </div>
             </div>
 
@@ -82,7 +82,7 @@ class Funfact extends React.Component {
                     </VisibilitySensor>
                   </span>
                 </h2>
-                <p>Indicadores Parceiros</p>
+                <p>Indicadores parceiros</p>
               </div>
             </div>
           </div>

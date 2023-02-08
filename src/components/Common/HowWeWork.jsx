@@ -10,7 +10,7 @@ class HowWeWork extends React.Component {
             <h2>
               Como <span>Funciona</span>
             </h2>
-            <p>Veja como é super fácil contratar o delivery.</p>
+            <p>Confira abaixo os passos para contratar o delivery</p>
           </div>
 
           <div className="row">
@@ -19,7 +19,7 @@ class HowWeWork extends React.Component {
                 <h3>01.</h3>
                 <h4>Agendamento</h4>
                 <p>
-                  Entre em contato para discutirmos sobre o caso e agendar o
+                  Entre em contato para discutirmos sobre o caso e agendarmos o
                   atendimento
                 </p>
               </div>
@@ -30,8 +30,8 @@ class HowWeWork extends React.Component {
                 <h3>02.</h3>
                 <h4>Atendimento</h4>
                 <p>
-                  Vou até sua clínica levando todos equipamentos, materiais e
-                  instrumentais necessários para o procedimento
+                  Na sua clínica, realizo os procedimentos, levando todos
+                  equipamentos, materiais e instrumentais necessários
                 </p>
               </div>
             </div>
@@ -41,9 +41,8 @@ class HowWeWork extends React.Component {
                 <h3>03.</h3>
                 <h4>Acompanhamento</h4>
                 <p>
-                  Após a finalização do atendimento, envio ao indicador um
-                  relatório contendo todas as informações do tratamento
-                  realizado
+                  Após finalizar o atendimento, envio um relatório completo com
+                  as informações do tratamento realizado
                 </p>
               </div>
             </div>

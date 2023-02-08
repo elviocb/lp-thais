@@ -11,7 +11,7 @@ class Testimonial extends React.Component {
         <div className="container">
           <div className="section-title">
             <h2>
-              Alguns <span>Depoimentos</span>
+              Breves <span>Depoimentos</span>
             </h2>
             <p>Indicadores parceiros que confiam seus casos a mim</p>
           </div>
@@ -33,11 +33,11 @@ class Testimonial extends React.Component {
                 <p>
                   Conheci a Thais na graduação, quando fui seu professor de
                   prótese. Sempre dedicada e eficiente, buscava o melhor para os
-                  pacientes. Depois de formada continuou sua busca por
+                  pacientes. Depois de formada, continuou sua busca por
                   conhecimento e aprimoramento. Hoje, trabalhamos juntos em uma
                   clínica, onde eu tenho a tranquilidade de realizar minhas
-                  próteses dando sequência aos seus procedimentos. Por isso à
-                  indico como profissional e pessoa.
+                  próteses, dando sequência aos seus procedimentos. Por isso a
+                  indico como profissional e como pessoa.
                 </p>
 
                 <span>
@@ -60,14 +60,13 @@ class Testimonial extends React.Component {
                 </div>
 
                 <p>
-                  Trabalho com a Thais a alguns anos e desde o início ela se
-                  mostrou uma profissional excelente que busca sempre o
-                  aprimoramento pessoal para dar o melhor ao paciente. Justa,
-                  não faz da odontologia um comércio, mas sim um ofício de amor
-                  dando sempre o melhor como profissional e ser humano. Isto é
-                  relatado de forma cada vez mais constante nos feedbacks de
-                  nossos pacientes que adoram o acolhimento dado por ela do pré
-                  ao pós-operatório. Organizada e atualizada, possui grande
+                  Trabalho com a Thais há alguns anos e, desde o início, ela se
+                  mostrou uma profissional excelente, que busca sempre se
+                  aprimorar. Justa, não faz da odontologia um comércio, mas um
+                  ofício de amor, entregando o melhor como profissional e ser
+                  humano. E isso é relatado constantemente pelos nossos
+                  pacientes, que adoram o acolhimento dado por ela, do pré ao
+                  pós-operatório. Organizada e atualizada, possui grande
                   capacidade de gestão clínica e de liderança. Ficamos felizes
                   em tê-la como parte de nossa equipe.
                 </p>
@@ -92,9 +91,9 @@ class Testimonial extends React.Component {
                 </div>
 
                 <p>
-                  A Dra. Thais é uma excelente profissional, ética, responsável
+                  A Dra. Thais é uma excelente profissional. Ética, responsável
                   e extremamente comprometida. Gosto muito da nossa parceria e
-                  os pacientes só tem elogios a respeito dela.
+                  os pacientes só têm elogios a respeito dela.
                 </p>
 
                 <span>

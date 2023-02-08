@@ -17,8 +17,7 @@ class Faq extends React.Component {
               Perguntas <span>Frequentes</span>
             </h2>
             <p>
-              Algumas das perguntas mais frequentes realizadas pelos
-              indicadores.
+              Algumas das perguntas mais frequentes feitas pelos indicadores
             </p>
           </div>
 
@@ -34,40 +33,42 @@ class Faq extends React.Component {
                   <AccordionItem>
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Como funciona os valores?
+                        Quais são os valores dos serviços?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
                         Os valores são fixos e disponibilizados ao indicador via
-                        WhatsApp
+                        WhatsApp.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
                   <AccordionItem>
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Como saber se o dente realmente precisa de endodontia?
+                        Como saber se o caso realmente necessita de um
+                        endodontista?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Me coloco a disposição para discussão de casos, auxílio
-                        em diagnósticos e se necessário consulta de avaliação
+                        Fico à disposição para discutir cada caso, auxiliar no
+                        diagnóstico e, se necessário, realizar consulta de
+                        avaliação.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
                   <AccordionItem>
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Caso necessite de retorno, é cobrado algum valor
-                        adicional?
+                        Caso haja a necessidade de retorno, é cobrado algum
+                        valor adicional?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Não, os valores são fixos e estão inclusos quantos
-                        retornos forem necessários para o mesmo caso.
+                        Não. Os valores são fixos e cobrem todos os retornos
+                        necessários para a total resolução do caso.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>

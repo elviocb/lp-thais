@@ -102,7 +102,7 @@ class Navigation extends React.Component {
             className="nav-link"
             href="#faq"
           >
-            Faq
+            FAQ
           </AnchorLink>
         </li>
         <li className="nav-item">

@@ -14,14 +14,14 @@ class Strategy extends React.Component {
             <div className="col-lg-6 col-md-7 col-sm-12">
               <div className="about-strategy ptb-80">
                 <div className="section-title">
-                  <h4>Mas afinal...</h4>
+                  <h4>Mas, afinal...</h4>
                   <h2>
                     Quem é a Dra. <span>Thais Coqueiro?</span>
                   </h2>
                   <p>
-                    Dentista graduada desde 2018, com especialização em
-                    endodontia pela Faculdade de Odontologia da APCD (FAOA) e
-                    pós-graduação em ortodontia, em andamento, pelo Instituto
+                    Dentista graduada desde 2018, tenho especialização em
+                    endodontia, pela Faculdade de Odontologia da APCD (FAOA), e
+                    pós-graduação em ortodontia (em andamento), pelo Instituto
                     Vellini.
                   </p>
                   <br />
