@@ -50,7 +50,7 @@ class Benefits extends React.Component {
                 <p>
                   Por estar sempre atualizado em relação a equipamentos e
                   técnicas, cabe ao profissional delivery levar à clínica
-                  parceira, no dia do antendimento, equipamentos, instrumental e
+                  parceira, no dia do atendimento, equipamentos, instrumental e
                   materiais necessários
                 </p>
                 <span>3</span>
