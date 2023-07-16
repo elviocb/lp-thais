@@ -106,7 +106,7 @@ class Contact extends React.Component {
                 <ul>
                   <li>
                     <i className="fa fa-map-marker"></i> São Paulo, Santo André,
-                    São Caetano e Osasco
+                    São Caetano, Osasco, Alphaville e Jundiaí
                   </li>
                   <li>
                     <i className="fa fa-envelope"></i>
