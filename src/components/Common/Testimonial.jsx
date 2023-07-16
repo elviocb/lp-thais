@@ -1,6 +1,6 @@
 import React from "react";
 import testimonialImgOne from "../../assets/images/dr-joao-testimonial-thumb.jpg";
-import testimonialImgTwo from "../../assets/images/dr-anselmo-testimonial-thumb.jpg";
+import testimonialImgTwo from "../../assets/images/anselmo-thumb.jpg";
 import testimonialImgThree from "../../assets/images/dra-juliane-testimonial-thumb.jpg";
 import CtaSection from "./CtaSection";
 
