@@ -14,10 +14,14 @@ class CtaButton extends React.Component {
         rel="noopener noreferrer"
       >
         <i className="fa fa-whatsapp" />
-        Entre em contato
+        {this.props.btnText}
       </a>
     );
   }
 }
+
+CtaButton.defaultProps = {
+  btnText: "Entre em contato",
+};
 
 export default CtaButton;

@@ -43,13 +43,16 @@ This files table contents are outlined below>>>>>
 *** - Go Top CSS
 */
 
+$family: unquote("Poppins");
+$font_family: "Poppins", sans-serif;
+$cta_color: #f0c665;
+$template_color: #c3b790;
+
 /*
 ==============================
 Navbar CSS
 ==============================
 */
-
-$template_color: #5bb0ba;
 
 .navbar {
   position: relative;
@@ -74,8 +77,8 @@ $template_color: #5bb0ba;
       }
 
       .navbar-toggler-icon {
-        fill: $template_color;
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(91, 176, 186, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        mask: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(91, 176, 186, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        background: $template_color;
       }
     }
     .navbar-nav {
@@ -108,10 +111,6 @@ CTA Section CSS
 Default CSS
 ==============================
 */
-$family: unquote("Poppins");
-$font_family: "Poppins", sans-serif;
-$template_color: #5bb0ba;
-$cta_color: #f8bf00;
 
 @import url("https://fonts.googleapis.com/css?family=#{$family}:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 
@@ -183,7 +182,7 @@ img {
   }
 }
 .bg-f6f6f6 {
-  background: #f6f6f6;
+  background: #fbf9f4;
 }
 .form-group {
   margin-bottom: 20px;
@@ -198,14 +197,14 @@ img {
 .btn {
   padding: 9px 25px;
   font-size: 16px;
-  border-radius: 25px;
+  border-radius: 7px;
   transition: 0.4s;
 }
 .btn-primary {
   color: #000;
   background-color: $cta-color;
   border-color: $cta-color;
-  padding: 15px 45px;
+  padding: 10px 25px;
   font-size: 18px;
   font-weight: 500;
 
@@ -607,7 +606,7 @@ Main Banner CSS
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: 0.87;
+    opacity: 0;
   }
 }
 .item-bg-one {
@@ -621,10 +620,12 @@ Main Banner CSS
 }
 
 .item-bg-xray {
-  background-image: url("../images/item-bg-xray.jpg");
+  background-image: url("../images/foto-hero-v9.jpg");
 }
 
 .main-banner {
+  background-color: #1c1710;
+
   div {
     canvas {
       position: absolute;
@@ -651,6 +652,7 @@ Main Banner CSS
 .main-banner-text {
   text-align: center;
   position: relative;
+  margin-bottom: 0px;
 
   h4 {
     color: #fff;
@@ -1024,7 +1026,7 @@ Strategy Area CSS
   background-repeat: repeat;
 
   .image {
-    background-image: url("../images/dra-thais-coqueiro-working.png");
+    background-image: url("../images/who_am_i.png");
     position: absolute;
     left: 0;
     top: 0;
@@ -1269,7 +1271,7 @@ Fun Facts Area CSS
 ==============================
 */
 .funFacts-area {
-  background-image: url("../images/patt.png");
+  // background-image: url("../images/patt.png");
   position: relative;
   background-position: center center;
   // background-size: cover;
@@ -1930,7 +1932,8 @@ Testimonials Area CSS
 }
 .single-feedback {
   box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
-  background-image: url("../images/patt.png");
+  // background-image: url("../images/patt.png");
+  background-color: #f6f6f6;
   padding: 30px;
   margin-bottom: 30px;
   border-radius: 5px;

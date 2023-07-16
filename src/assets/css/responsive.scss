@@ -1,13 +1,20 @@
 $media: screen;
 $feature_min: min-width;
 $feature_max: max-width;
+$value_zero: 540px;
 $value_one: 767px;
 $value_two: 768px;
 $value_three: 991px;
 $value_four: 992px;
 $value_five: 1199px;
 $value_six: 1400px;
-$template_color: #5bb0ba;
+$template_color: #c4b588;
+
+@media only #{$media} and ($feature_max : $value_zero) {
+  .item-bg-xray {
+    background-position: -650px 215px !important;
+  }
+}
 
 /* Max width 767px */
 @media only #{$media} and ($feature_max : $value_one) {
@@ -72,14 +79,17 @@ $template_color: #5bb0ba;
       }
       .navbar-toggler {
         border-color: $template_color;
+        color: red !important;
+        fill: red !important;
+        stroke: red !important;
 
         &:focus {
           box-shadow: none;
         }
 
         .navbar-toggler-icon {
-          fill: $template_color;
-          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(91, 176, 186, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+          mask: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(91, 176, 186, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+          background: $template_color;
         }
       }
       .navbar-nav {
@@ -93,6 +103,7 @@ $template_color: #5bb0ba;
   .main-banner {
     height: 100%;
     padding-top: 110px;
+    background-color: #1c1710;
     // padding-bottom: 110px;
   }
   .creative-banner-one {
@@ -113,7 +124,14 @@ $template_color: #5bb0ba;
       bottom: 0;
     }
   }
+
+  .item-bg-xray {
+    background-position: -450px 215px;
+  }
+
   .main-banner-text {
+    margin-bottom: 500px;
+
     h4 {
       font-size: 20px;
       letter-spacing: 0;
@@ -198,6 +216,7 @@ $template_color: #5bb0ba;
   .strategy-area {
     .image {
       height: 400px;
+      background-position: center -64px;
     }
   }
   .about-strategy {
@@ -852,6 +871,7 @@ $template_color: #5bb0ba;
   .navbar-logo {
     fill: #000;
   }
+
   .owl-theme {
     .owl-nav {
       [class*="owl-"] {
@@ -902,10 +922,12 @@ $template_color: #5bb0ba;
   }
 
   .main-banner {
+    background-color: #1c1710;
     height: 100%;
     padding-top: 120px;
     // padding-bottom: 120px;
   }
+
   .creative-banner-two {
     &::before {
       border-top: 100px solid transparent;
@@ -921,7 +943,14 @@ $template_color: #5bb0ba;
       bottom: 0;
     }
   }
+
+  .item-bg-xray {
+    background-position: -450px 215px;
+  }
+
   .main-banner-text {
+    margin-bottom: 500px;
+
     h4 {
       font-size: 18px;
     }

@@ -23,7 +23,6 @@ class Footer extends React.Component {
                     }}
                     className="fa fa-facebook"
                     target="_blank"
-                    exact
                   ></Link>
                 </li>
                 <li>
@@ -33,7 +32,6 @@ class Footer extends React.Component {
                     }}
                     className="fa fa-instagram"
                     target="_blank"
-                    exact
                   ></Link>
                 </li>
                 <li>
@@ -44,7 +42,6 @@ class Footer extends React.Component {
                     }}
                     className="fa fa-linkedin"
                     target="_blank"
-                    exact
                   ></Link>
                 </li>
               </ul>

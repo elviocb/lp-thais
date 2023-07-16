@@ -1,3 +1,7 @@
+@media only screen and (max-width: 540px) {
+  .item-bg-xray {
+    background-position: -650px 215px !important; } }
+
 /* Max width 767px */
 @media only screen and (max-width: 767px) {
   .btn-primary {
@@ -36,17 +40,21 @@
   .navbar.navbar-light .navbar-brand:focus, .navbar.navbar-light .navbar-brand:hover {
     color: #000000; }
   .navbar.navbar-light .navbar-toggler {
-    border-color: #5bb0ba; }
+    border-color: #c4b588;
+    color: red !important;
+    fill: red !important;
+    stroke: red !important; }
   .navbar.navbar-light .navbar-toggler:focus {
     box-shadow: none; }
   .navbar.navbar-light .navbar-toggler .navbar-toggler-icon {
-    fill: #5bb0ba;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(91, 176, 186, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+    mask: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(91, 176, 186, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background: #c4b588; }
   .navbar.navbar-light .navbar-nav .nav-link {
     color: #000000; }
   .main-banner {
     height: 100%;
-    padding-top: 110px; }
+    padding-top: 110px;
+    background-color: #1c1710; }
   .creative-banner-one {
     border-width: 5rem 100vw 0 0; }
   .creative-banner-two::before {
@@ -57,6 +65,10 @@
     height: 40px;
     background-size: cover;
     bottom: 0; }
+  .item-bg-xray {
+    background-position: -450px 215px; }
+  .main-banner-text {
+    margin-bottom: 500px; }
   .main-banner-text h4 {
     font-size: 20px;
     letter-spacing: 0; }
@@ -102,7 +114,8 @@
     height: 70px;
     width: 70px; }
   .strategy-area .image {
-    height: 400px; }
+    height: 400px;
+    background-position: center -64px; }
   .about-strategy ul li {
     font-size: 14px; }
   .who-we-are {
@@ -393,7 +406,7 @@
   .blog-details .article-text .blockquote {
     padding: 15px;
     font-size: 15px;
-    border-left: 3px solid #5bb0ba; }
+    border-left: 3px solid #c4b588; }
   .blog-details .article-text .author-share .article-author {
     overflow: unset;
     position: relative;
@@ -496,6 +509,7 @@
     padding-right: 12px;
     padding-left: 12px; }
   .main-banner {
+    background-color: #1c1710;
     height: 100%;
     padding-top: 120px; }
   .creative-banner-two::before {
@@ -506,6 +520,10 @@
     height: 60px;
     background-size: cover;
     bottom: 0; }
+  .item-bg-xray {
+    background-position: -450px 215px; }
+  .main-banner-text {
+    margin-bottom: 500px; }
   .main-banner-text h4 {
     font-size: 18px; }
   .main-banner-text h1 {

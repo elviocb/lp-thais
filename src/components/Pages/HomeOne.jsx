@@ -2,7 +2,7 @@ import React from "react";
 import MainBanner from "../PageBanners/MainBannerOne";
 // import Welcome from "../Common/Welcome";
 // import About from "../Common/About";
-import Strategy from "../Common/Strategy";
+import WhoAmI from "../Common/WhoAmI";
 import Benefits from "../Common/Benefits";
 // import Ctr from "../Common/Ctr";
 // import Skill from "../Common/Skill";
@@ -43,7 +43,7 @@ class HomeOne extends React.Component {
         <Faq />
 
         {/* Strategy Area */}
-        <Strategy />
+        <WhoAmI />
 
         {/* About Area */}
         {/* <About /> */}

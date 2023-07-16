@@ -16,10 +16,11 @@ class Navigation extends React.Component {
 
   componentDidMount() {
     let elementId = document.getElementById("navbar");
+
     document.addEventListener("scroll", () => {
       if (window.scrollY > 170) {
         elementId.classList.add("is-sticky");
-        window.history.pushState("", document.title, window.location.pathname);
+        // window.history.pushState("", document.title, window.location.pathname);
       } else {
         elementId.classList.remove("is-sticky");
       }
